@@ -115,10 +115,10 @@ namespace TextAdventure
             switch(playerAnswerOne)
             {
                 case "Blue":
-                    Console.WriteLine($"Congrats {name}! Looks like you can read. Congrats on saving the world!");
+                    Console.WriteLine($"Congrats {name}! Good memory! You saved the world!");
                     break;
                 case "blue":
-                    Console.WriteLine($"Congrats {name}! Looks like you can read. Congrats on saving the world!");
+                    Console.WriteLine($"Congrats {name}! Good memory! You saved the world!");
                     break;
                 default:
                     Console.WriteLine($"Ooops. That doesn't seem right {name}, and impeding doom is upon you. See ya later!");
