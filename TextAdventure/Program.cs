@@ -20,6 +20,8 @@ namespace TextAdventure
             string name = Console.ReadLine();
             System.Threading.Thread.Sleep(2000);
             Console.WriteLine($"Nice to meet you {name}! Not what I would have chosen for you, but that's ok!");
+            System.Threading.Thread.Sleep(2000);
+            Console.WriteLine("My name is Blue!");
 
             // Character job
             System.Threading.Thread.Sleep(2000);
@@ -30,7 +32,7 @@ namespace TextAdventure
             Console.WriteLine("...");
             System.Threading.Thread.Sleep(2000);
             Console.WriteLine("....");
-            System.Threading.Thread.Sleep(5000);
+            System.Threading.Thread.Sleep(3500);
 
             Console.WriteLine($"Wow....that's great! You? {work}, huh.");
             System.Threading.Thread.Sleep(2000);
@@ -93,7 +95,7 @@ namespace TextAdventure
 
             System.Threading.Thread.Sleep(4000);
 
-            Console.WriteLine("The name of the game is to solve the riddle or puzzle.");
+            Console.WriteLine("The name of the game is to solve the riddle");
             System.Threading.Thread.Sleep(4000);
 
             Console.WriteLine("Fail and it will be our end.");
@@ -103,6 +105,28 @@ namespace TextAdventure
             System.Threading.Thread.Sleep(4000);
 
             Console.WriteLine("So without further ado, and also because my programming is forcing me to, let's start the game of your life!");
+
+
+            //The riddles
+            System.Threading.Thread.Sleep(2000);
+            Console.WriteLine("What is my favorite color?");
+            string playerAnswerOne = Console.ReadLine();
+
+            switch(playerAnswerOne)
+            {
+                case "Blue":
+                    Console.WriteLine($"Congrats {name}! Looks like you can read. Congrats on saving the world!");
+                    break;
+                case "blue":
+                    Console.WriteLine($"Congrats {name}! Looks like you can read. Congrats on saving the world!");
+                    break;
+                default:
+                    Console.WriteLine($"Ooops. That doesn't seem right {name}, and impeding doom is upon you. See ya later!");
+                    break;
+            }
+
+
+
             
 
         }
