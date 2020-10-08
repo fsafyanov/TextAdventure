@@ -68,7 +68,7 @@ namespace TextAdventure
                     break;
                 case 5:
                     System.Threading.Thread.Sleep(2000);
-                    Console.WriteLine("Wow! That's just what we need! Based on my background search on you, you're definitely not lying! I'm extremely confident and scared for what's too come!");
+                    Console.WriteLine("Wow! That's just what we need! Based on my background search on you, you're definitely not lying! I'm extremely confident and scared for what's to come!");
                     break;
                 default:
                     System.Threading.Thread.Sleep(2000);
